@@ -1,0 +1,58 @@
+body,
+header,
+nav,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: coral;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 115%;
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  background-color: coral;
+  width: 100%;
+}
+
+header h1 {
+  font-size: 6rem;
+  text-align: center;
+}
+
+header img {
+  display: block;
+  margin: auto;
+  padding: 1rem;
+}
+
+nav {
+  background-color: rgb(234, 67, 7);
+  width: 100%;
+}
+
+nav ul a {
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 0.5rem;
+}
+
+main {
+  background-color: rgb(243, 188, 122);
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+footer {
+  background-color: rgb(234, 67, 7);
+  padding: 1rem;
+}
+
+p {
+  line-height: 100%;
+}
